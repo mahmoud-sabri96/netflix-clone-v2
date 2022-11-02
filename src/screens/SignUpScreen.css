@@ -33,6 +33,7 @@
     margin-bottom: 14px;
     border: none;
     border-radius: 5px;
+    caret-color: #e50914;
 }
 
 .signUpScreen>form>button {
@@ -55,4 +56,25 @@
 
     text-decoration: underline;
     cursor: pointer;
+}
+
+@media (max-width:650px) {
+    .signUpScreen {
+        padding: 25px;
+    }
+
+    .signUpScreen>form>h1 {
+        font-size: 20px;
+    }
+
+    .signUpScreen>form>input {
+
+        padding: 12px 8px;
+    }
+
+    .signUpScreen>form>button {
+        padding: 12px 15px;
+        font-size: 15px;
+        margin-top: 12px;
+    }
 }

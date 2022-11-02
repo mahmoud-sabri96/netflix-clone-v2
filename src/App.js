@@ -37,7 +37,8 @@ function App() {
           <LoginScreen />
         ) : (
           <Routes>
-            <Route exact path="/" element={<HomeScreen />} />
+            <Route path="/netflix-clone-v2" element={<HomeScreen />} />
+            <Route path="/" element={<HomeScreen />} />
             <Route path="/profile" element={<ProfileScreen />} />
             <Route path="/:type/:ID" element={<MovieScreen />} />
           </Routes>

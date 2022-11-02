@@ -9,7 +9,7 @@
 .profileScreen__body {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
     max-width: 800px;
     margin: auto;
 }
@@ -27,6 +27,7 @@
 
 .profileScreen__info>img {
     height: 85px;
+    border-radius: 50%;
 }
 
 .profileScreen__details {
@@ -63,3 +64,23 @@
     border: none;
     cursor: pointer;
 }
+
+
+@media (max-width:650px) {
+    .profileScreen__info>img {
+        height: 50px;
+    }
+
+    .profileScreen__details h2 {
+        padding: 8px;
+    }
+
+    .profileScreen__plans>h3 {
+        font-size: 15px;
+    }
+
+    .profileScreen__signOut {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+    }

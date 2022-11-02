@@ -8,7 +8,7 @@
 
 
 .loginScreen__logo {
-    width: 150px;
+    width: 120px;
     padding-left: 20px;
     position: fixed;
     left: 0;
@@ -18,7 +18,7 @@
 .loginScreen__button {
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 10px;
     padding: 15px 25px;
     font-size: 1rem;
     color: #fff;
@@ -35,27 +35,27 @@
     /* z-index: 1; */
     color: #fff;
     padding: 5px 10px;
-    transform: translateY(150px);
+    transform: translateY(140px);
 }
 
 .loginScreen__body>h1 {
-    font-size: 3.125rem;
+    font-size: 1.5rem;
     margin-bottom: 18px;
 }
 
 .loginScreen__body>h2 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .loginScreen__body>h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .loginScreen__input {
-    margin: 20px;
+    margin: 15px 5px;
 }
 
 .loginScreen__input>form>input {
@@ -63,7 +63,7 @@
     outline: none;
     caret-color: #e50914;
     /* height: 30px; */
-    width: 30%;
+    width: 40%;
     border: none;
     max-width: 600px;
 }
@@ -85,3 +85,37 @@
 
 /* backGround of loginscreens*/
 /* http://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg */
+
+@media (max-width:650px) {
+    .loginScreen__logo {
+        width: 100px
+    }
+
+    .loginScreen__body>h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .loginScreen__body>h2 {
+        font-size: 16px;
+    }
+
+    .loginScreen__body>h3 {
+        font-size: 12px;
+    }
+
+    .loginScreen__button {
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+
+    .loginScreen__input>form>input {
+        width: 60%;
+        padding: 10px;
+    }
+
+    .loginScreen__getStarted {
+        padding: 12px 15px;
+        font-size: .7rem;
+    }
+}

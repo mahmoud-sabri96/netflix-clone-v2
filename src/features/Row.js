@@ -22,7 +22,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
         fetchData()
     }, [fetchUrl])
 
-    console.log(movies)
+    // console.log(movies)
 
     function nextHandeler(e) {
         document.querySelector(`div[target-sec = "${e.target.id}"]`).scrollBy({
@@ -41,7 +41,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     }
     // console.log(fetchUrl.slice(0, fetchUrl.indexOf("?"))) //return    discover/tv
     const path = fetchUrl.slice(fetchUrl.lastIndexOf("/"), fetchUrl.indexOf("?"))  // return ("/tv" or "/movie")
-    console.log(path)
+    // console.log(path)
     // console.log(movie.media_type)
 
     function goToMovieHandler(MovieID, movieMediaType) {
@@ -60,8 +60,8 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
         <div className='row'>
             <h2>{title}</h2>
             <div className='row__posters' target-sec={title}>
-                <button onClick={(e) => backHandeler(e)} id={title} className="backBtn" ><i className="fa-solid fa-angle-left"></i></button>
-                <button onClick={(e) => nextHandeler(e)} id={title} className="nextBtn" ><i className="fa-solid fa-angle-right"></i></button>
+                <span onClick={(e) => backHandeler(e)} id={title} className="backBtn" ></span>
+                <span onClick={(e) => nextHandeler(e)} id={title} className="nextBtn" ></span>
 
                 {movies.map(
                     (movie) =>
