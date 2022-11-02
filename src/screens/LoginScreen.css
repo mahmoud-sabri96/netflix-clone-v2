@@ -1,0 +1,87 @@
+.loginScreen {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg");
+    background-size: cover;
+    /* background-color: red; */
+}
+
+
+.loginScreen__logo {
+    width: 150px;
+    padding-left: 20px;
+    position: fixed;
+    left: 0;
+    cursor: pointer;
+}
+
+.loginScreen__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+}
+
+.loginScreen__body {
+    margin: auto;
+    text-align: center;
+    /* z-index: 1; */
+    color: #fff;
+    padding: 5px 10px;
+    transform: translateY(150px);
+}
+
+.loginScreen__body>h1 {
+    font-size: 3.125rem;
+    margin-bottom: 18px;
+}
+
+.loginScreen__body>h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.loginScreen__body>h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__input {
+    margin: 20px;
+}
+
+.loginScreen__input>form>input {
+    padding: 18px;
+    outline: none;
+    caret-color: #e50914;
+    /* height: 30px; */
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen__getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    /* border-color: #e50914; */
+}
+
+.loginScreen__getStarted:hover {
+    background-color: #f12630;
+}
+
+/* backGround of loginscreens*/
+/* http://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg */

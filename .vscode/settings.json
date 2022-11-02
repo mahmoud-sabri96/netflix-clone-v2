@@ -1,0 +1,7 @@
+{
+    "highlight-matching-tag.styles": null,
+    "highlight-matching-tag.customEmptyElements": null,
+    "highlight-matching-tag.highlightFromContent": true,
+    "highlight-matching-tag.highlightSelfClosing": true,
+    "highlight-matching-tag.noDefaultEmptyElements": true
+}
